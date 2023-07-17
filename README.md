@@ -11,7 +11,9 @@ Imported pandas and numpy, two Python libraries to work with the dataset.
 Pandas library works well for numeric, alphabets, and heterogenous types of data simultaneously while numpy library works better with only numeric data, has efficient storage, and fastly performs mathematical operations on array-based matrix-based numeric values.
 The dataset is named dataset.csv. it can be loaded and analyzed using pandas.
 The head() function displays the first few rows of the dataset providing a preview of its structure. The describe() function provides statistical information such as count, mean, standard deviation, quartiles, minimum and maximum values for each numerical column in the dataset.
+
 Plotting graphical comparisons and analysis
+
 Utilized pyplot module from the matplotlib library to plot the 4 different graphical comparisons and analyze them. For this imported matplotlib.pyplot as plt. First plotted Histogram. It is the graphical representation of grouped frequency distribution with continuous classes. It is an area diagram and can be defined as a set of rectangles with bases along with the intervals between class boundaries and areas proportional to frequencies in the corresponding classes.
 Here production year and frequency is plotted.
 Secondly bar graph is plotted. A bar graph is a graph that represents the category of data with rectangular bars with lengths and heights propotional to the values which they represent. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. Here it is plotted between price and fuel type.
