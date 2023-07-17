@@ -17,7 +17,9 @@ Here production year and frequency is plotted.
 Secondly bar graph is plotted. A bar graph is a graph that represents the category of data with rectangular bars with lengths and heights propotional to the values which they represent. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. Here it is plotted between price and fuel type.
 Thirdly box plot is created. It is to display the summary of the set of data values having properties like minimum, first quartile, median, third quartile and maximum. In the box plot, a box is created from the first quartile to the third quartile, a vertical line is also there which goes through the box at the median. Here x-axis denotes the data to be plotted while the y-axis shows the frequency distribution. Cylinders are given in the x-axis.
 Lastly, a scatter plot is created. Scatter plots are used to observe the relationship between variables and use dots to represent the relationship between them. Here cylinders and airbags are plotted in a scatter plot.
+
 Checked for null values.
+
 The isnull().sum() function returns the count of null values in each column. By using dropna() we can remove rows with null values. Since the rows and columns of the dataset before and after removing null values are same, the dataset does not contain any null values.
 
 Standardization
